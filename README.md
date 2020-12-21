@@ -1,5 +1,6 @@
-# Projet-Python-1A-Sugar-Scape
-Sugar Scape 
+# Projet-Python-1A-Sugar-Scape par Romane Gajdos, Caran Etemad, Clara Le Gallic-Ach
+
+Professeur : Xavier Dupré
 
 **Objectif : Simuler l’émergence et l'évolution des inégalités dans une population d'agents hétérogènes et autonomes**
 
