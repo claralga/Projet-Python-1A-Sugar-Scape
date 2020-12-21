@@ -3,7 +3,7 @@ Sugar Scape
 
 **Objectif : Simuler l’émergence et l'évolution des inégalités dans une population d'agents hétérogènes et autonomes**
 
-**Modèle suivi** : Le Sugarscape d’Epstein et Axtell. C’est un programme de modélisation des agents. Dans sa forme plus basique, des fourmis évoluent de manière autonome sur un plan 2D parsemé de ressources (les grains de sucre) qu’elles doivent consommer pour survivre.
+**Modèle suivi : Le Sugarscape d’Epstein et Axtell.** C’est un programme de modélisation des agents. Dans sa forme plus basique, des fourmis évoluent de manière autonome sur un plan 2D parsemé de ressources (les grains de sucre) qu’elles doivent consommer pour survivre.
 
 **2 propriétés élémentaires :**
 
@@ -11,7 +11,9 @@ Sugar Scape
 - Hétérogénéité des agents : ils ne naissent pas égaux, ils ont des capacités de stockage différentes et la quantité de grains qu’ils ont à disposition varie en fonction de leur lieu de naissance sur le plan
 D’autres hypothèses peuvent s’ajouter pour améliorer le modèle.
 
-**Notre modèle :** En s’inspirant du modèle présenté par Epstein et Axtell, nous avons pas à pas créé un tableau générant aléatoirement des grains de sucre et un tableau (de mêmes dimensions) générant des fourmis capables de se déplacer dans un rayon qui nous appellerons leur vision. Leur but est de se déplacer sur la case (à l’intérieur de leur vision) contenant le maximum de sucre afin d’augmenter sa richesse. Chaque fourmi consomme 1 grain de sucre par déplacement (si possible). Une fourmi qui a une richesse nulle meurt (« de faim » nous dirons).
+**Notre modèle :** 
+
+En s’inspirant du modèle présenté par Epstein et Axtell, nous avons pas à pas créé un tableau générant aléatoirement des grains de sucre et un tableau (de mêmes dimensions) générant des fourmis capables de se déplacer dans un rayon qui nous appellerons leur vision. Leur but est de se déplacer sur la case (à l’intérieur de leur vision) contenant le maximum de sucre afin d’augmenter sa richesse. Chaque fourmi consomme 1 grain de sucre par déplacement (si possible). Une fourmi qui a une richesse nulle meurt (« de faim » nous dirons).
 
 Nous avons ensuite ajouté des hypothèses :
 
