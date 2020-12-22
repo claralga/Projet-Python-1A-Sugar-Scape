@@ -1,5 +1,7 @@
 # Projet-Python-1A-Sugar-Scape par Romane Gajdos, Caran Etemad, Clara Le Gallic-Ach
 
+*Projet de programmation effectué dans le cadre du second semestre de notre première année à l'ENSAE Paris*
+
 Professeur : Xavier Dupré
 
 **Objectif : Simuler l’émergence et l'évolution des inégalités dans une population d'agents hétérogènes et autonomes**
